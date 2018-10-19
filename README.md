@@ -2,6 +2,7 @@
 
 ## Purpose
 **For STUDY!**
+
 Selenium을 이용하여 UI 테스트를 자동화 해보고자 시작한 프로젝트.
 
 ## 테스트 스크립트 작성 과정
@@ -16,3 +17,6 @@ Selenium을 이용하여 UI 테스트를 자동화 해보고자 시작한 프로
   * 적절한 경로에 locate 시킨 후, 해당 Directory를 환경변수 PATH에 등록
 * Eclipse 셋팅
   * Marketplace에서 Testng 다운로드 & 인스톨
+* Windows DPI 설정
+  * Windows 7 기준, 권장 확대 비율이 125%로 되어있어서 화면도 깨지고, IE의 경우는 아예 Exception이 떨어짐.
+  * 해결책 : Start menu - dpi 검색 - 100%로 변경
