@@ -1,4 +1,4 @@
-# Test project with Selenium with TestNG
+# Test project with Selenium and TestNG
 
 ## Summary
 Selenium과 TestNG를 이용한 테스팅 자동화 프로젝트 **for STUDY!**
@@ -14,21 +14,3 @@ Selenium과 TestNG를 이용한 테스팅 자동화 프로젝트 **for STUDY!**
   * 적절한 경로에 locate 시킨 후, 해당 Directory를 환경변수 PATH에 등록
 * Eclipse 셋팅
   * Marketplace에서 Testng 다운로드 & 인스톨
-* Maven Dependencies 설정
-  * Selenium
-    ~~~
-    <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-java</artifactId>
-      <version>3.9.1</version>
-    </dependency>
-    ~~~   
-  * TestNG
-    ~~~
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>6.14.3</version>
-      <scope>test</scope>
-    </dependency>
-    ~~~
